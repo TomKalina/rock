@@ -3,10 +3,14 @@
   "version": "0.13.0",
   "type": "module",
   "exports": {
-    "types": "./dist/src/index.d.ts",
-    "default": "./dist/src/index.js"
+    ".": {
+      "types": "./dist/src/index.d.ts",
+      "default": "./dist/src/index.js"
+    },
+    "./app.plugin.js": "./app.plugin.js"
   },
   "files": [
+    "app.plugin.js",
     "dist",
     "src",
     "template"
